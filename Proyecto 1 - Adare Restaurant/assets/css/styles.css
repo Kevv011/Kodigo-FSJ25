@@ -1,0 +1,80 @@
+
+body
+{
+    /* !important le da prioridad al estilo e ignora el efecto cascada */
+    background-color: orange !important; 
+    background-image: url(../images/background-adare-restaurant.jpg);
+    background-size:cover;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+    /* ------ Header ------- */
+.container header  /* Es recomedado especificar bien el selector. Esta manera es un ejemplo */
+{
+    text-align:center;
+}
+.header .img-container
+{
+    height:20vh;
+}
+.header .img-logo
+{
+    height: 12vh;
+}
+
+   /* ------ Nav-bar ------- */
+.header .navbar
+{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width:40vw;
+}
+.navbar .nav-item
+{
+    color:white;
+    text-decoration:none; /* Esto quita la underline de los URL */
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+.nav-item:hover
+{
+    color:orange;
+    font-size:1.4rem;
+    text-decoration:underline;
+    transition: 0.3s ease;
+}
+.main-container
+{
+    text-align:center;
+    color:white;
+    margin-top:5vh;
+}
+.section-container
+{
+    padding-top:10vh;
+    padding-bottom:4vh;
+}
+.section-text-h1
+{
+    font-family: "Rubik", sans-serif;
+    font-size:4em;
+    transition: 0.3s;
+}
+.section-text-h1:hover
+{
+    text-shadow: 0.06em 0.06em orange;
+    transition: 0.3s;
+}
+.section-text-p
+{
+    font-family: "Monserrat", sans-serif;
+    font-size:1.2em;
+    color:rgb(157,156,156);
+
+}

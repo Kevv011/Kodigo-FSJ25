@@ -1,0 +1,90 @@
+/* --- Selector universal ---*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 1rem;
+}
+
+/* --- HEADER ---*/
+.header-container {
+    text-align: center;
+    padding: 0 1rem 1.5rem 1rem;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+/* --- MAIN ---*/
+.img-container {
+    width: 100%;
+    height: 18vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.card-section h2,
+.ingred-container h2,
+.instructions-container h2,
+.nutrition-container h2 {
+    margin: 1.3rem 0;
+    font-size: 1.3em;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.card {
+    background-color: #f5f2f0;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    width: 30%;
+    line-height:1.7em;
+}
+
+.card h5 {
+    font-weight: 400;
+}
+
+.card h3 {
+    font-weight: bold;
+}
+
+.instruction-item,
+.ingredient-item,
+.nutrition-item {
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+
+@media(min-width:550px) {
+    .img-container 
+    {
+        height: 25vh;
+    }
+}
+@media(min-width:700px) {
+    .img-container 
+    {
+        height: 33vh;
+    }
+}
+@media(min-width:900px) {
+    .img-container 
+    {
+        height: 42vh;
+    }
+}
