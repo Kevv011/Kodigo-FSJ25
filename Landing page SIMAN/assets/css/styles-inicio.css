@@ -1,0 +1,143 @@
+/* --Selector universal-- */
+*
+{
+    padding:0;
+    margin:0;
+}
+
+/* --MAIN-- */
+.main-container
+{
+    margin:3rem 7rem;
+    text-align:center;
+
+}
+.main-container h1
+{
+    font-size:3em;
+}
+.page-tittle
+{
+    line-height:3em;
+    text-align:center;
+}
+.page-tittle img
+{
+    margin-top:2em;
+    border-radius:10px;
+    width:80vw;
+}
+
+/* Offers section */
+.offers, .discounts, .events
+{
+    margin-bottom:2rem;
+    font-size:1.5em;
+    background: linear-gradient(to right, #013354, #000 , #8e412a);
+    color:white;
+    padding:2rem;
+    border-radius:10px;
+    box-shadow: 1px 1px 0.6em black;
+
+    display:flex;
+    flex-wrap:row;
+    align-items: center;
+    justify-content: center;
+}
+.discounts
+{
+    background: linear-gradient(to left, #013354, #000 , #8e412a);
+    display:flex;
+    flex-direction:row-reverse;
+}
+.offers img, .discounts img, .events img
+{
+    margin-top:1.3rem;
+    filter: drop-shadow(1px 1px 1em #fff);
+}
+.description
+{
+    line-height:1.7em;
+    display:flex;
+    flex-direction:column;
+    gap:3em;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:1220px)
+{
+    .main-container
+    {
+        margin:3rem 3rem;
+    }
+    .offers img, .discounts img, .events img 
+    {
+        width: 50vw;
+    }
+    .description a
+    {
+        font-size:1.2em !important;
+    }
+}
+@media(max-width:920px)
+{
+    .main-container
+    {
+        margin:3rem 2rem;
+    }
+    .page-tittle h1
+    {
+        font-size:2.5em;
+    }
+    .page-tittle img
+    {
+        margin-top:0.7rem;
+        width: 90vw;
+    }
+    .offers, .discounts, .events
+    {
+        padding:1rem;
+        display:flex;
+        flex-direction:column;
+        background: linear-gradient(to top, #013354, #000 , #8e412a);
+    }
+}
+@media(max-width:620px)
+{
+    .main-container
+    {
+        margin:3rem 1rem;
+    }
+    .page-tittle h1
+    {
+        font-size:2em;
+    }
+    .offers img, .discounts img, .events img 
+    {
+        width: 40vw;
+    }
+    .description a
+    {
+        font-size:0.9em !important;
+    }
+}
+@media(max-width:500px)
+{
+    .description
+    {
+        font-size:0.8em;
+    }
+    .iframe-01
+    {
+        display:none;
+    }
+    .iframe-02
+    {
+        display:inline-block;
+        text-align:center;
+    }
+    .footer-info
+    {
+        padding:1rem;
+    }
+}
