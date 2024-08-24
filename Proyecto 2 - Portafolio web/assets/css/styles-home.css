@@ -1,0 +1,145 @@
+body{
+    background-color: #1b1f25 !important;
+    color: #fff !important;
+    font-family: "Rubik", sans-serif !important;
+}
+
+/* ---- Header Section ---- */
+.header
+{
+    position:sticky;
+    top:0;
+    z-index: 10;
+} 
+.header .navbar .logo h2{
+    font-size: 4em !important;
+}
+.header .navbar .logo h2 span{
+    color: #08afff !important;
+    text-shadow: 2px 2px 3px white;
+}
+.contact-button button:hover
+{
+    transition: 0.5s ease;
+    color: white !important;
+}
+.header .navbar .menu-navbar{
+    width: 40vw;
+    display:flex;
+    justify-content: space-around; 
+    align-items: center; 
+    list-style: none;  
+}
+
+.header .navbar .menu-navbar a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.header .menu-navbar a:hover
+{
+    transition: 0.5s ease;
+    color: #0dcaf0;
+    text-decoration: underline;
+}
+
+
+
+/* ---- Main Section ---- */ 
+.bio:hover
+{
+    transition: 2s ease;
+}
+.main-content{ 
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 2rem;
+    align-items: center;
+}
+.color-text
+{
+    color:#0dcaf0 !important;
+}
+.social-icons a i
+{
+    transition: 0.5s ease;
+}
+.social-icons a i:hover
+{
+    color:white !important;
+    transition: 0.5s ease;
+    font-size:1.3em;
+}
+.main-content .img-container img{
+    width: 30vw;
+    border-bottom-left-radius: 7rem;
+    border-bottom-right-radius: 7rem;
+}
+.main-content .btn-info
+{
+    color:white !important;
+}
+.main-content .btn-info:hover
+{
+    background-color: #1b1f25 !important;
+    color:#0dcaf0 !important;
+}
+
+/* --- PROJECTS ---*/
+.card-project
+{
+    background-color: #2e3440 !important;
+    border: 2px solid #335e77 !important;
+    border-radius:1.5em !important;
+    transition: 0.5s ease;
+}
+.card-project:hover
+{
+    transition: 0.5s ease;
+    background-color: #1b1f25 !important;
+    width:18vw;
+}
+.card-links a i
+{
+    color: #0dcaf0 !important;
+    text-decoration:none;
+    transition: 0.5s ease;
+}
+.card-links a i:hover
+{
+    color: #fff !important;
+    transition: 0.5s ease;
+}
+.card-img-top
+{
+    border-radius:1.1em !important;
+}
+
+/* ---CONTACT FORM--- */
+.form-card
+{
+    background-color: #1b1f25 !important;
+    border: none !important;
+    border-radius:1.5em !important;
+    transition: 0.5s ease;
+}
+.form-floating input, .form-floating textarea
+{
+    background-color: #2e3440 !important;
+    border: 2px solid #335e77 !important;
+    color:#fff !important;
+}
+.form-card .btn-info
+{
+    color:white !important;
+}
+.form-card .btn-info:hover
+{
+    background-color: #1b1f25 !important;
+    color:#0dcaf0 !important;
+}
+.form-floating input::placeholder, .form-floating textarea::placeholder
+{
+    background-color: #2e3440 !important;
+}
