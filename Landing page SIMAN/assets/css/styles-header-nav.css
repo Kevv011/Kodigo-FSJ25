@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+
 /* ---HEADER-NAVBAR--- */
 header
 {
@@ -21,6 +28,12 @@ header
 }
 .navbar-01 form input::placeholder
 {
+    color:white !important;
+}
+.navbar-01 .sm-offcanva-option button
+{
+    background-color: #a83338  !important;
+    border:none;
     color:white !important;
 }
 .navbar-02 li a:hover
