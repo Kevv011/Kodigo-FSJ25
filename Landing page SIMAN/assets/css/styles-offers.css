@@ -1,4 +1,25 @@
-.navbar
+img
 {
-    background-color: #a83338 !important;
+    border-radius:20px;
+}
+.category-container article img
+{
+    padding-right:3px;
+    transition:0.3s ease-in-out
+}
+.category-container article img:hover
+{
+    transform:scale(1.1);
+    cursor:pointer;
+    transition:0.3s ease-in-out
+}
+.offers-container article .men-offer
+{
+    transition:0.3s ease-in-out
+}
+.offers-container article .men-offer:hover
+{
+    transform:scale(0.9);
+    cursor:pointer;
+    transition:0.3s ease-in-out
 }

@@ -1,0 +1,16 @@
+img
+{
+    border-radius:15px;
+}
+.discounts .discount-02-07 img
+{
+    width:49%;
+}
+.discounts .discount-05 img, .discounts .discount-06 img
+{
+    width:100%;
+}
+.discounts .discount-03-04 img
+{
+    width:48.8%;
+}

@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - SIMAN</title>
+    <title>Ofertas Especiales - SIMAN</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/styles-inicio.css">
+    <link rel="stylesheet" href="./assets/css/styles-offers.css">
     <link rel="stylesheet" href="./assets/css/styles-header-nav.css">
 </head>
 
@@ -61,7 +61,7 @@
                     <div></div>
 
                     <!-- Navbar-views -->
-                    <section class="d-none d-md-block d-lg-block me-5">
+                    <div class="d-none d-md-block d-lg-block me-5">
                         <ul class="navbar-02 navbar-nav d-flex flex-row flex-start gap-4">
                             <li class="nav-item">
                                 <a class="nav-link" href="./Ofertas.html">Ofertas Especiales</a>
@@ -73,7 +73,7 @@
                                 <a class="nav-link" href="./Eventos.html">Eventos</a>
                             </li>
                         </ul>
-                    </section>
+                    </div>
 
                     <!-- Navbar-icons -->
                     <ul class="navbar-icons navbar-nav fs-5 d-flex flex-row">
@@ -89,73 +89,71 @@
         </section>
     </header>
 
-
     <!-- MAIN -->
-    <main class="container text-center mt-4">
+    <main class="container mt-3 mb-3">
 
-        <!-- Tittle & subtittle -->
-        <section class="page-tittle">
-            <h1>Encuentra todo lo que necesitas en un solo lugar</h1>
-            <h3>¡Explora Nuestra Amplia Selección de Productos y Aprovecha Ofertas y Descuentos Exclusivos!</h3>
-            <div class="gif">
-                <img class="mb-4" src="./assets/image/siman.gif" alt="siman-gif">
-            </div>
+        <section class="text-center">
+            <section>
+                <h2 class="pb-2 fw-bold fs-2 fs-sm-5">¡Encuentra las mejores ofertas de regreso a clases para tus hijos!</h2>
+                <img class="img-fluid" src="./assets/image/offer-06.jpg" alt="offer-06">
+            </section>
+
+            <section class="category-container d-flex flex-column mt-5 mb-5">
+                <h4 class="pb-3 fw-bold">Categorias</h4>
+                <article class="d-flex flex-row justify-content-evenly flex-wrap">
+                    <div class="category">
+                        <img src="./assets/image/offer-tec.jpg" alt="technology-school">
+                        <h5 class="pt-2">Tecnologia</h5>
+                    </div>
+                    <div class="category">
+                        <img src="./assets/image/offer-school.jpg" alt="category-school">
+                        <h5 class="pt-2">Cuadernos</h5>
+                    </div>
+                    <div class="category">
+                        <img src="./assets/image/offer-paper.jpg" alt="paper-school">
+                        <h5 class="pt-2">Utiles Escolares</h5>
+                    </div>
+                    <div class="category">
+                        <img src="./assets/image/offer-topper.jpg" alt="topper-school">
+                        <h5 class="pt-2">Depositos</h5>
+                    </div>
+                    <div class="category">
+                        <img src="./assets/image/offer-backp.jpg" alt="backpack-school">
+                        <h5 class="pt-2">Mochilas</h5>
+                    </div>
+                </article>
+            </section>
         </section>
 
-        <!-- Offers -->
-        <section class="offers">
+        <section class="offers-container mt-5 text-center">
+            <h2 class="pb-2 fw-bold">Ofertas en productos seleccionados</h2>
             <article>
-                <h3>Encuentra las mejores ofertas en productos de calidad</h3>
-                <h5 style="font-weight:lighter;">Al comprar en linea con nuestra tarjeta SIMAN</h5>
-                <img class="mb-4" src="./assets/image/offer-banner.png" alt="offer-banner" width="600">
-            </article>
-
-            <article class="description">
-                <div>
-                    <h4>¡Aprovecha las ofertas especiales de este mes de Agosto!</h4>
-                    <p>Por la compra de productos con tu tarjeta SIMAN obtienes 20% de descuentos en productos
-                        especificados. ¡No te lo pierdas!</p>
-                </div>
-                <a style="color:white; font-size:1.5em;" href="./Ofertas.html">Ver ofertas</a>
+                <img class="img-fluid" src="./assets/image/offer-05.png" alt="">
+                <section class="grid mb-4 mt-4">
+                    <h3 class="fw-bold pt-3">Vestimenta formal: Lo mas destacado</h3>
+                    <img class="men-offer col-12 col-md-5 me-3" src="./assets/image/offer-01.jpg" alt="offer-01">
+                    <img class="men-offer col-12 col-md-5 mt-3" src="./assets/image/offer-02.jpg" alt="offer-02">
+                </section>
+                <section class="grid">
+                    <img class="men-offer col-12 col-md-5 me-3" src="./assets/image/offer-03.jpg" alt="offer-03">
+                    <img class="men-offer col-12 col-md-5 mt-3" src="./assets/image/offer-04.jpg" alt="offer-04">
+                </section>
             </article>
         </section>
 
-        <!-- Discounts -->
-        <section class="discounts">
-            <article>
-                <h3>Descuentos de temporada presentes</h3>
-                <h5 style="font-weight:lighter;">En productos seleccionados en todas nuestras sucursales SIMAN</h5>
-                <img class="mb-4" src="./assets/image/discount-banner.png" alt="offer-banner">
-            </article>
 
-            <article class="description">
-                <div>
-                    <h4>¡Aprovecha Descuentos Increíbles por Tiempo Limitado!</h4>
-                    <p>Descubre los mejores descuentos y ahorra en tus Productos Favoritos en todas nuestras sucursales
-                        SIMAN</p>
-                </div>
-                <a style="color:white; font-size:1.5em;" href="./Descuentos.html">Ver descuentos</a>
-            </article>
-        </section>
 
-        <!-- Events -->
-        <section class="events">
-            <article>
-                <h3>Descuentos de temporada presentes</h3>
-                <h5 style="font-weight:lighter;">En productos seleccionados en todas nuestras sucursales SIMAN</h5>
-                <img class="mb-4" src="./assets/image/event-banner.png" alt="offer-banner" width="700">
-            </article>
 
-            <article class="description">
-                <div>
-                    <h4>¡Aprovecha Descuentos Increíbles por Tiempo Limitado!</h4>
-                    <p>Descubre los mejores descuentos y ahorra en tus Productos Favoritos en todas nuestras sucursales
-                        SIMAN</p>
-                </div>
-                <a style="color:white; font-size:1.5em;" href="./Eventos.html">Ver proximos eventos</a>
-            </article>
-        </section>
+
+
     </main>
+
+
+
+
+
+
+
 
     <!-- FOOTER -->
     <footer class="footer-container text-center" style="background-color: #dfdfdf;">
@@ -195,7 +193,7 @@
 
             <!-- Location -->
             <section class="Location ms-0 ms-lg-5">
-                <iframe class="iframe-01 d-none d-sm-inline-block text-center mt-0 mt-md-5"
+                <iframe class="iframe-01 d-none d-sm-inline-block text-center mt-2 mt-md-5"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.2168228181467!2d-89.21346842423671!3d13.705313898366756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63306062d87639%3A0x55ab0139f4a396d1!2sAlmacenes%20SIMAN%20%E2%80%A2%20Metrocentro%20San%20Salvador!5e0!3m2!1ses-419!2ssv!4v1724287941332!5m2!1ses-419!2ssv"
                     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -206,9 +204,8 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </section>
-        <p class="mt-3 mb-0">© 2024 Almacenes SIMAN. Todos los derechos reservados.</p>
+        <p class="mt-3">© 2024 Almacenes SIMAN. Todos los derechos reservados.</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

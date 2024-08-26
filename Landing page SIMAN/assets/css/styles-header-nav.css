@@ -1,86 +1,53 @@
-/* --HEADER-- */
-.header-container
+/* ---HEADER-NAVBAR--- */
+header
 {
-    background-color: #a83338;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-    padding:0.5rem 1rem;
-}
-.header-container input
-{
-    background-color: #7a232e;
-    color:white;
-    border:none;
-    padding:0.5rem;
-    border-radius:10px;
-    width:20vw;
-}
-.header-container input::placeholder
-{
-    color:white;
-}
+    position:sticky;
+    top:0;
+    z-index:10;
 
-/* --NAVBAR-- */
-.navbar
-{
-    background-color: #dfdfdf;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    padding:0.5rem 1.5rem;
-    font-size:1.2em;
 }
-.navbar .list
+.navbar-01
 {
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    list-style-type: none;
-    gap:4em;
+    background-color: #a83338 !important;
 }
-.item-text
+.navbar-01 form input
 {
-    color:black;
-    text-decoration: none;
-    font-weight: bold;
-} 
-.item-text:hover
-{
-    text-decoration: underline;
-} 
-.select-country
-{
-    background-color: #969494;
+    background-color: #7a232e !important;
     border:none;
-    padding:0.3rem;
-    color:white;
-    margin-left:0.5rem;
-    border-radius:8px;
+    color:white !important;
+    width:35vw;
+    height:4vh;
+    border-radius:20px;
 }
-.nav-icon
+.navbar-01 form input::placeholder
 {
-    font-size:1.3em;
-    color:black;
-    display:flex;
-    flex-direction:row;
-    gap:1.5em;
+    color:white !important;
+}
+.navbar-02 li a:hover
+{
+    color:#a83338 !important;
+    text-decoration:underline;
+}
+.navbar-icons .fa-cart-shopping:hover, .navbar-icons .fa-user:hover
+{
+    transform:scale(1.2);
+    color:#a83338 !important;
     cursor:pointer;
 }
+.nav-info
+{
+    background-color: #dfdfdf !important;
+    height:5vh;
+}
 
-/* MEDIA QUERIES */
-@media(max-width:920px)
+
+
+/* ---MEDIA QUERIES--- */
+@media(max-width:932px)
 {
-    .navbar .list
+    .navbar-01 form input
     {
-        display:none;
+        width:50vw;
     }
 }
-@media(max-width:620px)
-{
-    .header-container img 
-    {
-        width:33vw;
-    }
-}
+    

@@ -6,26 +6,22 @@
 }
 
 /* --MAIN-- */
-.main-container
-{
-    margin:3rem 7rem;
-    text-align:center;
-
-}
-.main-container h1
-{
-    font-size:3em;
-}
 .page-tittle
 {
     line-height:3em;
     text-align:center;
 }
-.page-tittle img
+.page-tittle .gif
+{
+    width:100%;
+    overflow:hidden;
+}
+.page-tittle .gif img
 {
     margin-top:2em;
     border-radius:10px;
-    width:80vw;
+    width:100%;
+    height:100%;
 }
 
 /* Offers section */
@@ -43,6 +39,18 @@
     flex-wrap:row;
     align-items: center;
     justify-content: center;
+    transition: 0.5s ease;
+}
+.offers:hover, .discounts:hover, .events:hover
+{
+    background: linear-gradient(to right, #014069, #302f2f , #a14a2f);
+    transform:translate(0, -10px);
+    cursor:pointer;
+    transition: 0.5s ease;
+}
+.discounts:hover
+{
+    background: linear-gradient(to left, #014069, #302f2f , #a14a2f);
 }
 .discounts
 {
@@ -66,10 +74,6 @@
 /* MEDIA QUERIES */
 @media(max-width:1220px)
 {
-    .main-container
-    {
-        margin:3rem 3rem;
-    }
     .offers img, .discounts img, .events img 
     {
         width: 50vw;
@@ -79,20 +83,11 @@
         font-size:1.2em !important;
     }
 }
-@media(max-width:920px)
+@media(max-width:1000px)
 {
-    .main-container
-    {
-        margin:3rem 2rem;
-    }
     .page-tittle h1
     {
         font-size:2.5em;
-    }
-    .page-tittle img
-    {
-        margin-top:0.7rem;
-        width: 90vw;
     }
     .offers, .discounts, .events
     {
@@ -104,10 +99,6 @@
 }
 @media(max-width:620px)
 {
-    .main-container
-    {
-        margin:3rem 1rem;
-    }
     .page-tittle h1
     {
         font-size:2em;
@@ -116,28 +107,12 @@
     {
         width: 40vw;
     }
-    .description a
-    {
-        font-size:0.9em !important;
-    }
-}
-@media(max-width:500px)
-{
     .description
     {
-        font-size:0.8em;
+        font-size:0.7em !important;
     }
-    .iframe-01
+    .description a
     {
-        display:none;
-    }
-    .iframe-02
-    {
-        display:inline-block;
-        text-align:center;
-    }
-    .footer-info
-    {
-        padding:1rem;
+        font-size:01em !important;
     }
 }
