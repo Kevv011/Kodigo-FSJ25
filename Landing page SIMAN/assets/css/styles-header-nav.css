@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+
+/* ---HEADER-NAVBAR--- */
+header
+{
+    position:sticky;
+    top:0;
+    z-index:10;
+
+}
+.navbar-01
+{
+    background-color: #a83338 !important;
+}
+.navbar-01 form input
+{
+    background-color: #7a232e !important;
+    border:none;
+    color:white !important;
+    width:35vw;
+    height:4vh;
+    border-radius:20px;
+}
+.navbar-01 form input::placeholder
+{
+    color:white !important;
+}
+.navbar-01 .sm-offcanva-option button
+{
+    background-color: #a83338  !important;
+    border:none;
+    color:white !important;
+}
+.navbar-02 li a:hover
+{
+    color:#a83338 !important;
+    text-decoration:underline;
+}
+.navbar-icons .fa-cart-shopping:hover, .navbar-icons .fa-user:hover
+{
+    transform:scale(1.2);
+    color:#a83338 !important;
+    cursor:pointer;
+}
+.nav-info
+{
+    background-color: #dfdfdf !important;
+    height:5vh;
+}
+
+
+
+/* ---MEDIA QUERIES--- */
+@media(max-width:932px)
+{
+    .navbar-01 form input
+    {
+        width:50vw;
+    }
+}
+    

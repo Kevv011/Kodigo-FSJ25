@@ -1,0 +1,48 @@
+/* ---MAIN--- */
+img {
+    border-radius: 15px;
+}
+
+.discount-01 img {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.discounts .discount-02-07 img {
+    width: 49%;
+    transition: 0.5s ease-in-out;
+}
+
+.discounts .discount-05 img,
+.discounts .discount-06 img {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.discounts .discount-03-04 img {
+    width: 48.8%;
+    transition: 0.5s ease-in-out;
+}
+
+.discount-01 img:hover,
+.discount-02-07 img:hover,
+.discount-05 img:hover,
+.discount-06 img:hover,
+.discount-03-04 img:hover {
+    transform: scale(0.97);
+    transition: 0.5s ease-in-out;
+    filter: contrast(0.7);
+    cursor: pointer;
+}
+
+/* ---MEDIA QUERIES--- */
+@media(max-width:576px) {
+    .discounts .discount-02-07 img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .discounts .discount-03-04 img {
+        width: 100%;
+    }
+}

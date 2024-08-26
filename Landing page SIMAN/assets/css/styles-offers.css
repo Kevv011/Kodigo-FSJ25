@@ -1,0 +1,43 @@
+/* ---MAIN--- */
+img {
+    border-radius: 20px;
+}
+
+.category-container article img {
+    padding-right: 3px;
+    transition: 0.3s ease-in-out
+}
+
+.category-container article img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+
+.offers-container article .men-offer {
+    width: 49.2%;
+    transition: 0.3s ease-in-out
+}
+
+.offer-05 {
+    transition: 0.5s ease-in-out;
+}
+
+.offers-container article .men-offer:hover,
+.offer-05:hover {
+    transform: scale(0.97);
+    filter: contrast(0.7);
+    cursor: pointer;
+    transition: 0.5s ease-in-out
+}
+
+.offer-05,
+.offer-06 {
+    width: 100%;
+}
+
+@media(max-width:576px) {
+    .offers-container article .men-offer {
+        width: 100%;
+    }
+}
