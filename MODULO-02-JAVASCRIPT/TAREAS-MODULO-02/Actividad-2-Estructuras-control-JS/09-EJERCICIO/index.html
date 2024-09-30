@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 9</title>
+</head>
+
+<body style="background-color: #08471d; color:#fff">
+
+    <!--ENUNCIADO-->
+    <section>
+        <h2><strong>Ejercicio 9</strong></h2>
+        <p>
+            Crear programa donde se introduce una temperatura en Celsius y salga el resultado en
+            Fahrenheit, <br> una vez teniendo la temperatura en Fahrenheit deberá devolver lo siguiente: <br>
+            • Si ºF está entre 14 y 32, sale la frase “Temperatura baja” <br>
+            • Si ºF está entre 32 y 68, sale la frase “Temperatura adecuada” <br>
+            • Si ºF está entre 68 y 96, sale la frase “Temperatura alta” <br>
+            • Si no está entre ningún caso anterior la frase “Temperatura desconocida” <br>
+        </p>
+    </section>
+    <hr>
+
+    <!--FORMULARIO DE OPERACION-->
+    <section>
+        <form action="#">
+            <label for="temperatura">Ingresa la temperatura en Celsius</label>
+            <div style="display:flex; flex-direction:row; gap:0;">
+                <input type="number" id="temperatura" required style="width:3rem;">
+                <div style="background-color: #c79898; padding-left:5px; padding-right:5px;">
+                    ºC
+                </div>
+            </div>
+            <br>
+
+            <!--Boton de ingreso de temperatura y reseteo-->
+            <button id="registro" type="button" style="background-color: #3a9dd6; color:#fff">Registrar temperatura</button>
+            <button id="reset" type="reset" style="background-color: #3a9dd6; color:#fff">Limpiar</button>
+            <br><br><br>
+
+            <!--Lugar de impresion de resultados-->
+            <textarea name="resultado" id="resultado" disabled style="width:18rem;"> Aqui se imprimira tu resultado</textarea>
+
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 6</title>
+</head>
+
+<body style="background-color: #520909; color:#fff;">
+    <!--ENUNCIADO-->
+    <section>
+        <p>
+            <h2><strong>Ejercicio 6</strong></h2>
+            Crear una Función para calcular el descuento en viajes turísticos tomando
+            en cuenta lo siguiente: <br>
+            Si el usuario introduce como origen la ciudad de Palma y como destino La costa del Sol, el
+            descuento será de 5%, <br> si el destino es Panchimalco el descuento será del 10% y si el destino
+            es Puerto el Triunfo el descuento será del 15%.
+        </p>
+        <hr>
+    </section>
+
+    <!--RESOLUCION EJERCICIO-->
+    <section>
+        <h1><strong>¡Descuentos en viajes!</strong></h1>
+        <P>
+            • Al seleccionar tu viaje hacia la ciudad de Palma con destino a costa del sol obtienes un 5% de descuento <br>
+            • Si tu destino es Puerto el Triunfo en Panchimalco obtienes un 15% de descuento
+        </P>
+
+        <section> <br>
+            <form action="#">
+
+                <!--SELECT de lugares de destino-->
+                <label for="ciudad">Elige tu lugar de destino</label><br>
+                <select name="ciudades" id="ciudad">
+                    <option value="none" selected>Todos</option>
+                    <option value="Palma">La Palma - Costa del Sol: $45</option>
+                    <option value="Panchimalco">Panchimalco - Puerto el Triunfo: $50</option>
+                    <option value="San Luis Talpa">San Luis Talpa - Pato Canales $30</option>
+                    <option value="La herradura">La Herradura - San Luis: $40</option>
+                </select><br><br>
+
+                <!--Boton de calculo-->
+                <section>
+                    <button id="calcular" type="button" style="background-color:blue; color:white;;">Calcular precios</button>
+                </section>
+
+                <!--Textarea donde se mostraran los resultados-->
+                <br><br>
+                <textarea name="" id="resultados" disabled style="width:20rem; height:7rem;">Costo total:</textarea>
+            </form>
+        </section>
+    </section>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

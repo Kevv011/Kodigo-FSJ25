@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 5</title>
+</head>
+
+<body style="background-color: #5f5959; color: #fff;">
+    <h1><ins>EJERCICIO 05</ins></h1>
+    <p>
+        Realizar una función para una tienda de coches en donde se deberá calcular:
+        Si el coche a la venta es un FORD FIESTA, aplicar un 5% de descuento en la compra. Si el
+        coche a la venta es un FORD FOCUS, el descuento será del 10% y si es un FORD ESCAPE
+        el descuento será del 20%. Mostrar en html el coche seleccionado y el descuento que se
+        aplicara en base a lo que selecciono el usuario.
+    </p>
+    <hr>
+
+    <!-- Seccion de resolucion -->
+    <section>
+        <h3>Selecciona un auto:</h3>
+        <select name="auto-ford" id="auto-ford">
+            <option value="none">Selecciona un auto</option>
+            <option value="Fiesta">Ford Fiesta</option>
+            <option value="Focus">Ford Focus</option>
+            <option value="Escape">Ford Escape</option>
+        </select>
+        <button id="seleccionar" onclick="calcularPrecio()">Seleccionar</button><br>
+
+        <p>
+            <strong>Nota:</strong> Descuento sobre el precio bruto: <br><br>
+            <strong>• Ford Fiesta:</strong> 5% de descuento<br>
+            <strong>• Ford Focus:</strong> 10% de descuento<br>
+            <strong>• Ford Escape:</strong> 20% de descuento
+        </p>
+    </section>
+
+    <!-- Seccion de muestra de resultados -->
+    <section>
+        <h3>Resultado:</h3>
+        <p id="resultado"> Aun no has seleccionado un auto</p>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

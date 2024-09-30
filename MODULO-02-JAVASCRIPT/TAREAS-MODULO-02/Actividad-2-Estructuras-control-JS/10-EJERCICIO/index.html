@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 10</title>
+</head>
+
+<body style="background-color: #85075f; color:#fff">
+    <!--ENUNCIADO-->
+    <section>
+        <h1><strong>Ejercicio 10</strong></h1>
+        <p>
+            Se cuenta con la siguiente información: <br>
+            • Las edades de 5 estudiantes del turno mañana. <br>
+            • Las edades de 6 estudiantes del turno tarde. <br>
+            • Las edades de 11 estudiantes del turno noche. <br><br>
+            Nota: Las edades de cada estudiante se deberán ingresar por la web <br><br>
+            Lo que queremos devolver: <br>
+            • Obtener el promedio de las edades de cada turno (tres promedios). <br>
+            • Imprimir dichos promedios (promedio de cada turno). <br>
+            • Mostrar por pantalla un mensaje que indique cuál de los tres turnos tiene un <br>
+            promedio de edades mayor.
+        </p>
+    </section>
+    <hr>
+
+    <!--Procesamiento de edades-->
+    <section>
+        <form action="#">
+
+            <!--TURNO MAÑANA-->
+            <section>
+                <label for="morning">Ingresa las 5 edades de los alumnos de la mañana</label>
+                <input id="morning" type="number">
+                <button id="calcMorning" type="button">Ingresar</button>
+            </section> <br>
+            <textarea name="result" id="morningResult" disabled></textarea>
+
+            <!--TURN TARDE-->
+            <section>
+                <label for="noon">Ingresa las 6 edades de los alumnos de la tarde</label>
+                <input id="noon" type="number">
+                <button id="calcNoon" type="button">Ingresar</button>
+            </section><br>
+            <textarea name="result" id="noonResult" disabled></textarea>
+
+            <!--TURNO NOCHE-->
+            <section>
+                <label for="night">Ingresa las 11 edades de los alumnos de la noche</label>
+                <input id="night" type="number">
+                <button id="calcNight" type="button">Ingresar</button>
+            </section>
+            <textarea name="result" id="nightResult" disabled></textarea>
+
+            <br><br>
+            <!--BOTON-->
+            <button id="btnPromedio" type="button">Calcular promedio mas alto</button>
+            <button id="btnReset" type="reset">Limpiar todo</button>
+
+
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

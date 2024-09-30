@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 3</title>
+</head>
+
+<body style="background-color: #066616; color:#fff;">
+
+    <!-- Planteamiento del ejercicio -->
+    <section>
+        <h1><ins>EJERCICIO 03</ins></h1>
+        <img src="./ejercicio-03.png" alt="Ejercicio 3">
+        <p>
+            Calcular el aumento de trabajador tomando en cuenta la tabla de categorías de aumento. <br>
+            Para este ejercicio deberá de asignar las siguientes variables: nombre, salario, categoría y
+            aumento. Deberá demostrar los datos del empleado y el aumento salarial.
+        </p>
+        <hr>
+    </section>
+
+    <div style="display:flex; flex-direction:row; gap:6em;">
+
+        <!-- Seccion de ingreso de datos -->
+        <section>
+
+            <!-- input para nombre del empleado -->
+            <label for="nombreEmpleado">Ingrese el nombre del empleado: </label><br>
+            <input type="text" id="nombreEmpleado" placeholder="Ej: Juan Perez"> <br><br>
+
+            <!-- input para salario del empleado -->
+            <label for="salarioEmpleado">Ingrese el salario del empleado: </label><br>
+            <input type="number" id="salarioEmpleado" placeholder="Ej: 365"> <br><br>
+
+            <!-- select para categoria de aumento -->
+            <label for="categoriaAumento">Seleccione la categoria de aumento a asignar: </label> <br>
+            <select name="categoria" id="categoriaAumento">
+                <option value="none">Selecciona la categoria</option>
+                <option value="A">A (15%)</option>
+                <option value="B">B (30%)</option>
+                <option value="C">C (10%)</option>
+                <option value="D">D (20%)</option>
+            </select> <br><br>
+
+            <button onclick="funcionSalario()">Calcular salario</button>
+
+        </section>
+
+        <!-- seccion para mostrar los datos -->
+        <section>
+            <p id="mostrar">Aqui se muestran los resultados, pero aún no se ha hecho ingreso de datos...</p>
+        </section>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

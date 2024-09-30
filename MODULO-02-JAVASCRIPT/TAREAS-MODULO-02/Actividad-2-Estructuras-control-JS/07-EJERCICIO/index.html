@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO 7</title>
+</head>
+
+<body style="background-color: #5b81e7; color:white;">
+
+    <!-- Enunciado ejercicio -->
+    <section>
+        <h1><ins>EJERCICIO 07</ins></h1>
+        <p>
+            Se realiza la carga de 10 valores enteros por teclado. Se desea conocer: <br>
+            • La cantidad de valores negativos ingresados. <br>
+            • La cantidad de valores positivos ingresados. <br>
+            • La cantidad de múltiplos de 15. <br>
+            • El valor acumulado de los números ingresados que son pares. <br>
+            <hr>
+        </p>
+    </section>
+
+    <!-- Procedimiento ejercicio -->
+    <section>
+        <h3><strong>INGRESO DE 10 NÚMEROS</strong></h3>
+        <h5>• A continuación, ingresa 10 números al azar (Pueden ser negativos, positivos, decimal, etc)</h5>
+        <button onclick="ingresar()">Empieza a ingresar numeros</button><br>
+    </section>
+
+    <!-- Impresion de valores -->
+    <section style="color:#fff">
+        <p id="valorIngresado">Aqui se presentaran las condiciones, pero aún no se han ingresado valores</p>  <!-- Se usa para imprimir los valores ingresados uno por uno -->
+        <p id="negativos"></p> <!-- Se imprimen los valores negativos -->
+        <p id="positivos"></p> <!-- Se imprimen los valores positivos -->
+        <p id="multiplos"></p> <!-- Se imprimen los valores multiplos de 15 -->
+        <p id="pares"></p>     <!-- Se imprimen los valores pares -->
+        <p id="sumaPares"></p> <!-- Se imprimen la suma de los valores pares -->
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

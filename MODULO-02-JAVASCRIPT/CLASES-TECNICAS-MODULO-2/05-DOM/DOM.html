@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica DOM</title>
+</head>
+
+<body style="background-color:#bcbcbc;">
+    <h1 id="textoSaludo">
+        <ins>Texto con H1</ins>
+    </h1>
+
+    <!-- seccion donde se edito con "innerHTML" y "innerText" -->
+    <section id="content"></section>
+
+    <!-- Boton con evento "addEventListener" -->
+    <button id="btnMagia">MAGIA</button>
+
+    <!-- boton con evento "onclick" -->
+    <button onclick="apretandoBoton()">Tu nombre</button>
+
+    <!-- input con evento "onchange" y "Event" como argumento -->
+    <input id="inputText" type="text" onchange="cambiandoInput(event)">
+
+
+
+
+    <script src="./DOM.js"></script>
+</body>
+
+</html>
